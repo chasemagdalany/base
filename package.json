@@ -1,0 +1,19 @@
+{
+  "name": "base",
+  "version": "0.0.0",
+  "description": "",
+  "license": "",
+  "author": "",
+  "type": "module",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "oxc-transform": "^0.143.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typecript": "latest"
+  }
+}
