@@ -7,13 +7,17 @@
   "type": "module",
   "main": "server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "oxlint",
+    "fmt": "oxfmt",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "oxc-transform": "^0.143.0"
   },
   "devDependencies": {
     "@types/node": "^26.2.0",
-    "typecript": "latest"
+    "oxfmt": "^0.63.0",
+    "oxlint": "^1.78.0",
+    "typescript": "latest"
   }
 }
